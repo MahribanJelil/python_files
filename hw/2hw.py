@@ -1,0 +1,22 @@
+# print("Welcome to our registration system.")
+# str(input("Please enter your first name: "))
+# str(input("Please enter your last name: "))
+# int(input("Please enter your age: "))
+# int(input("Please enter your phone number: "))
+# int(input("Please enter your additional phone number: "))
+# str(input("Please enter your email address: "))
+# str(input("Please enter your home address: "))
+# str(input("Please enter number or name of your school: "))
+# str(input("Please enter name of your university: "))
+# str(input("Please enter your major: "))
+# print("Are you robot or not?")
+# str(input())
+# print("If not, then calculate 7*3")
+# int(input())
+# print("Congratulations, you have been successfully registered.")
+
+# 21 hw from book (integers)
+N = int(input("Please enter amount of seconds: "))
+# x = ((N/60) - (N//60)) * 60
+x = N%60
+print("Amount of seconds from the last minute: ", int(x), "sec.")
